@@ -40,6 +40,7 @@ jobs:
             # exit 0
           fi
           poetry install  # --no-dev
+          poetry run python -c "import polyglot"
         shell: bash
       - name: Run flake8
         run: |
