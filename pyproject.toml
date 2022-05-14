@@ -6,7 +6,6 @@ authors = ["freemt"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-polyglot = "^16.7.4"
 six = "^1.16.0"
 
 [tool.poetry.dev-dependencies]

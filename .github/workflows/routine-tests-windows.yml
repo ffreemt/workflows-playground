@@ -35,6 +35,7 @@ jobs:
             # poetry run pip install data\\artifects\\PyICU-2.9-cp38-cp38-win_amd64.whl
             #
             poetry run pip install -r requirements.txt
+            poetry run pip install git+https://github.com/aboSamoor/polyglot@master
           else
             echo "$RUNNER_OS do nothing"
             # exit 0
