@@ -4,3 +4,5 @@
 # wheel
 # git+https://github.com/aboSamoor/polyglot@master
 PyICU-2.9-cp38-cp38-win_amd64.whl
+pycld2-0.41-cp38-cp38-win_amd64.whl
+Morfessor
