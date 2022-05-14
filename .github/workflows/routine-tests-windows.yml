@@ -39,7 +39,7 @@ jobs:
             echo "$RUNNER_OS do nothing"
             # exit 0
           fi
-          # poetry install  # --no-dev
+          poetry install  # --no-dev
         shell: bash
       - name: Run flake8
         run: |
